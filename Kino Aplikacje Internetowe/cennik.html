@@ -1,0 +1,178 @@
+<html>
+
+<head>
+<title>Kino</title>
+<link rel="stylesheet" href="css/style2.css" type="text/css" />
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+ 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.js"></script>
+	
+  <script src="js/swiper.min.js"></script>
+  <SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+<!-- Ukrycie przed przeglądarkami nie obsługującymi JavaScriptów
+var timerID = null
+function jakiDzien()
+{
+  var data = new Date();
+  dzien = data.getDay();
+  var index = 0;
+  
+	weekday = new Array('Niedziela', 'Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota');
+	while(index<7){
+	if(dzien==7){
+	dzien=0;
+	}
+	
+	document.write("<button  class=\"btn\" >"+weekday[dzien]+"</button>");
+	dzien++;
+	
+	index++;
+	}
+    
+}
+// Koniec kodu JavaScript -->
+</SCRIPT>
+	<script>
+			function myFunction3(){
+			var x = 100;
+			var i = 0;
+			for(i=0; i<x; i++){
+			document.write( "<div class= \"fotel\" id="+(1+i)+" onclick=\"myFunction('"+(1+i)+"')\">"+(i+1)+"</div>")
+			
+			}
+			
+			
+			}
+		
+		</script>
+<script>
+const mudules = document.querySelectorAll('.fotel');
+ 
+for (const module of modules){
+	const moduleToggle=module.querySelector('.fotel-toggle');
+	moduleToggle.addEventListener('click', function(){
+	const title = module.querySelector('fotel-title').innerText;
+	console.log(title);
+});
+}
+
+
+</script>
+  
+</head>
+
+<body>
+
+ <header>
+		<div class="row">
+        <div class="container-fluid headerBackground text-center">
+		
+			
+			
+			
+            <div class="abc col-12">
+                <div class="headerText">
+				
+                   <h1 >Kino Fenix</h1>
+				   </div>
+				   <div class="Fenix">
+						<img src="img/Fenixlogi.png"  width="20%" height="70%"  align="left"  >
+                    </div>
+                </div>
+               
+            </div>
+		
+      </div>
+    </header>
+
+<section>
+<div class="conteiner">
+	<div class="row">
+	<div class="asd col-12 align-self-center">
+	
+	<a href="index.html" style="text-decoration:none"><img src="img/cinema.png" width="10%" height="5%" hspace="30" >Repertuar </a>
+	<a href="cennik.html" style="text-decoration:none"><img src="img/dolar.png" width="10%" height="5%" hspace="30" >Cennik </a>
+	
+	<a href="kontakt.html" style="text-decoration:none"><img src="img/phone.png" width="10%" height="5%" hspace="30" >Kontakt </a>
+	
+
+
+	</div>
+	
+	</div>
+</section>
+<div class="tutaj">
+	<div class="row ">
+		<div class="cennik col-12">
+			<h1> Cennik biletów w kinie Fenix </h1>
+		</div>
+	</div>
+	<div class="row">
+	
+		<div class="col-2">
+		
+		
+		</div>
+		<div class="flex-container col-8">
+			
+			
+			<table align="center">
+<tr>
+	<td>Normalny: </td>	<td>24,00 zł</td>
+</tr>
+<tr>
+	<td>Ulgowy:  </td>	<td>20,00 zł</td>
+</tr>
+<tr>
+	<td>Junior/Senior:  </td>	<td>20,00 zł</td>
+</tr>
+<tr>
+	<td>Rodzinny:  </td>	<td>20,00 zł</td>
+</tr>
+</table>
+
+	
+	
+	
+	
+	
+
+	
+			</div>
+		<div class="col-2">
+		
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col-2">
+		</div>
+		<div class="col-8">
+		</div>
+		<div class="col-2">
+		
+		</div>
+		
+	
+	</div>
+		
+	</div>	
+
+	
+	<div class="stopka row">
+	
+		<div class="col-12 ">
+                    <p>Wszystkie prawa zastrzeżone &copy; 2019 Maciej Matyaszek</p>
+					
+                </div>
+                
+	</div>
+</div>
+  </div>
+</body>
+
+</html>

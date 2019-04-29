@@ -1,0 +1,243 @@
+body {
+    margin: 0px;
+	padding: 0px;
+    font-size: 10px;
+	background-image: url("../img/vue_bg.png");
+    /*    font-family: 'Raleway', sans-serif;*/
+}
+
+a,
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+    color: white;
+	font-size: 25px;
+	margin-left: 100px;
+}
+
+h1 {
+    font-size: 7.2em;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin: 80px 0;
+}
+
+h2 {
+    font-size: 6.0em;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 60px 0;
+}
+
+h3 {
+    font-size: 4em;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+h4 {
+    font-size: 2.8em;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+
+
+
+h5 {
+    font-size: 2.6em;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1.5px;
+    margin: 10px 0;
+}
+
+
+
+h1 .abc{
+	position:relative;
+	right: 160px;	
+	top: 50%;
+}
+/*about*/
+
+
+
+.aboutText p {
+    font-size: 2em;
+}
+
+/*header*/
+
+.headerBackground {
+    position: relative;
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+	background-image:url("../img/Firee.png");
+		
+	
+    justify-content: center;
+    text-align: center;
+}
+.Fenix{
+	position: relative;
+	margin-left: 5%;
+	top: 1%;
+	display:flex;
+	
+	text-align: right;
+	
+}
+.Seans{
+	margin-top:100px;
+	padding-top:20px;
+	float:left;
+	
+	color:white;
+	text-align: center;
+	height: 410px;
+	
+}
+.Seans2{
+	margin-top:110px;
+	text-align: center;
+	
+	border-bottom-style: outset;
+	text-align: center;
+	color:white;
+	
+	
+}
+.Seansg{
+	border-bottom-style: outset;
+	border-top-style: outset;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+
+.flex-container > div {
+	
+ margin:20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.headerText {
+	
+    position: relative;
+    top: 40%;
+	text-align: center;
+	
+    color: #f4f4f4;
+    text-shadow: 4px 4px 4px rgba(150, 150, 150, 1);
+}
+
+
+/*Skills*/
+.abc{
+	background-image:url("../img/Fire.png");
+	
+	
+}
+.asd{
+	    background: rgba(0,0,0,0) linear-gradient(to top,#050505 0%,#222 100%) repeat scroll 0 0;
+		color: white;
+		position: relative;
+		display: flex;
+		background-size: cover;
+		margin-bottom:30px;
+		
+    
+    
+}
+.carusel{
+	margin-top:20px;
+}
+.pol{
+		color: white;
+	 
+	 display: inline;
+	 padding-top: 1%;
+	 text-align: center;
+	 height: 10px;
+}
+button.sbutton{
+	background: rgba(0,0,0,0) linear-gradient(to top,#050505 0%,#222 100%) repeat scroll 0 0;
+	color:white;
+	width: 100px;
+	
+}
+.stopka{
+	margin-top:40px;
+	 background: rgba(0,0,0,0) linear-gradient(to top,#050505 0%,#222 100%) repeat scroll 0 0;
+	 text-align: center;
+	 color: white;
+}
+
+
+button.btn  {
+	
+  padding: 15px 25px ;
+  
+  font-size: 15px;
+  cursor: pointer;
+  width: 140px;
+  
+  outline: none;
+  color: #fff;
+	background: rgba(0,0,0,0) linear-gradient(to top,#050505 0%,#222 100%) repeat scroll 0 0;
+  border: none;
+  border-radius: 15px;
+
+  
+}
+
+footer {
+    font-size: 16px;
+    color: #f4f4f4;
+    padding: 40px 30px 30px 30px;
+    
+}
+
+
+.swiper-container {
+      width: 80%;
+      height: 50%;
+	  background: rgba(0,0,0,0) linear-gradient(to top,#050505 0%,#222 100%) repeat scroll 0 0;
+	  
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+       background: rgba(0,0,0,0) linear-gradient(to top,#050505 0%,#222 100%) repeat scroll 0 0;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
